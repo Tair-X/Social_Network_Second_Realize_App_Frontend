@@ -1,0 +1,116 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-areas: "h h" "n c";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /* grid-gap: 10px; */
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: pink;
+    margin-top:20px;
+}
+
+
+.button1,.inputFileProfile{
+
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Righteous', cursive;
+    color:#3CA1D9;
+    font-size: 11px;
+
+    text-shadow: 0 -1px rgb(46,53,58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    outline: none;
+    border: 1px solid #3CA1D9;
+    border-radius: 3px;
+    background: white ;
+    box-shadow:
+            inset 0 1px rgba(101,114,126,1),
+            inset 0 0 1px rgba(140,150,170,.8),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+}
+.button1:active {
+    box-shadow:
+            inset 0 1px 3px rgba(0,10,20,.5),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+}
+
+
+
+
+.placeholderProfile{
+    font-family: 'Righteous', cursive;
+    font-size: 11px;
+    color:#3CA1D9;
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    outline: none;
+    border: 1px solid #3CA1D9;
+    border-radius: 3px;
+    background: white ;
+    box-shadow:
+            inset 0 1px rgba(101,114,126,1),
+            inset 0 0 1px rgba(140,150,170,.8),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+}
+
+
+
+.one {
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    background-color: pink;
+    padding: 40px 10px;
+}
+.one h1,.one p {
+    font-family: 'Righteous', cursive;
+    position: relative;
+    color: #3CA1D9;
+    display: inline-block;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-size: 3em;
+    padding: 7px 40px;
+    margin: 0;
+    line-height: 1;
+}
+.one h1:before, .one h1:after, .one p:before, .one p:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background: repeating-linear-gradient(180deg, transparent, transparent 2px, white, #3CA1D9 4px);
+}
+.one h1:before,.one p:before {left: 0;}
+.one h1:after,.one p:after {right: 0;}
+@media (max-width: 420px) {
+    .one h1 {font-size: 2em;}
+}
+
+
+.hr-washed {
+    margin-top:  10px;
+    padding: 0;
+    height: 0;
+    border: none;
+    box-shadow: 0 0 10px 1px deepskyblue;
+    width: 80%;
+}

@@ -1,0 +1,16 @@
+
+.paginator {
+    margin: 10px;
+
+}
+.pageNumber {
+    padding: 2px;
+    font-size: 1em;
+    color: #3CA1D9;
+    font-family: 'Righteous', cursive;
+}
+
+.pageNumber.selectedPage {
+    font-weight: bold;
+    border-color: white;
+}

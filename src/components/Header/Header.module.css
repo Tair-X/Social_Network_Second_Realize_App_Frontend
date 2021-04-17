@@ -1,0 +1,40 @@
+.header {
+    grid-area: h;
+    background-color: pink;
+}
+
+.headerLogin{
+    color: #3CA1D9;
+    font-family: 'Righteous', cursive;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+.headerLogin:hover{
+    color: #3CA1D9;
+    font-family: 'Righteous', cursive;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.header img {
+    width: 60px;
+    height: 45px;
+    margin-bottom:10px;
+    margin-left:50px;
+    border: 3px solid dodgerblue;
+    border-radius: 200px;
+}
+
+.loginBlock {
+    float: right;
+    color: #7cff22;
+
+}
+.loginBlock a {
+    color: white;
+}
+

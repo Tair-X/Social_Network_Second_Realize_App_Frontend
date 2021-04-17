@@ -1,0 +1,19 @@
+.descriptionBlock {
+    padding: 10px;
+    color: #3CA1D9;
+    font-family: 'Righteous', cursive;
+}
+
+.mainPhoto {
+    max-width: 200px;
+}
+
+.contact {
+    padding-left: 10px;
+}
+
+.inputProfile{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}

@@ -1,0 +1,57 @@
+.nav {
+    grid-area: n;background-color: pink;
+    padding: 20px;
+    margin-top:20px;
+    margin-right:20px
+
+}
+
+
+
+.item {
+    background-color: pink;
+    padding: 30px 10px;
+    text-align: center;
+    width: 100px;
+    font-family: 'Righteous', cursive;
+}
+.item a {
+    font-family: 'Righteous', cursive;
+    position: relative;
+    color: #3CA1D9;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1;
+    padding: 10px 0;
+    margin: 0;
+    display: inline-block;
+    width: 100px;
+}
+.item a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 200%;
+    border-radius: 50%/30%;
+    border: 6px solid   #3CA1D9;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+@media (max-width: 420px) {
+    .item a {font-size: 2em;}
+}
+
+.item a:hover {
+    text-decoration: none;
+    color:white;
+
+}
+
+.item a.activeLink {
+    color: white;
+
+
+}

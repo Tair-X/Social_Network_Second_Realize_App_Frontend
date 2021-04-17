@@ -1,0 +1,33 @@
+.chatAddMessage{
+    margin-left:10px ;
+    color:white;
+}
+
+.chatMessage{
+    margin-left:35px ;
+color:white;
+
+    text-decoration: none;
+}
+
+.chatMessageInfo{
+    margin-left:3% ;
+    color: #3CA1D9;
+    font-family: 'Righteous', cursive;
+
+    text-decoration: none;
+}
+
+.chatName{
+    color: deepskyblue;
+    margin-left:2% ;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+.chatName:hover{
+
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+}
